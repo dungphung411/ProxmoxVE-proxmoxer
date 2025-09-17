@@ -21,13 +21,18 @@ pip install proxmoxer
 pip install requests  
 pip install paramiko
 ```
-Yêu cầu Proxmoxer 
+Để dùng .env tăng bảo mật
+```bash
+pip install dotenv
+```
+Rồi tạo file env và trỏ vào nó trong code
 ## Tài liệu tham khảo 
 - [Proxmoxer Documentation](https://proxmoxer.github.io/docs/)
 - [Proxmox VE API](https://pve.proxmox.com/pve-docs/api-viewer/index.html)
 
 # B. Kế hoạch triển khai 
  ** NOTED ** THIS CODE IS NOT IAC
+ 
 ### Hoàn thành 
 - Proxmoxnetwork
 - Cluster Status

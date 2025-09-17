@@ -1,8 +1,14 @@
+# Initial
 from proxmoxer import ProxmoxAPI
 import json
 import paramiko
-
-proxmox = ProxmoxAPI('10.200.5.201', user='root@pam', password='Nutanix/4u', verify_ssl=False)
+from dotenv import load_dotenv
+import os
+load_dotenv(dotenv_path="D:\\PROJECT\\script\\Python_Proxmox\\.env")
+host = os.getenv("PROXMOX_HOST")
+user = os.getenv("PROXMOX_USER")
+password = os.getenv("PROXMOX_PASSWORD")
+proxmox = ProxmoxAPI(host, user=user, password=password, verify_ssl=False)
 
 log = proxmox.cluster.log.get()
 with open('log.json', 'w', encoding='utf-8') as f:
