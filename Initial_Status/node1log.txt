@@ -1,0 +1,52 @@
+{
+  "loadavg": [
+    "0.58",
+    "0.51",
+    "0.47"
+  ],
+  "rootfs": {
+    "avail": 29261955072,
+    "total": 36536098816,
+    "used": 5385240576,
+    "free": 31150858240
+  },
+  "kversion": "Linux 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z)",
+  "ksm": {
+    "shared": 0
+  },
+  "boot-info": {
+    "mode": "legacy-bios"
+  },
+  "pveversion": "pve-manager/9.0.9/117b893e0e6a4fee",
+  "uptime": 8115,
+  "cpu": 0.0297903417216931,
+  "memory": {
+    "total": 16721117184,
+    "free": 10577612800,
+    "available": 11561287680,
+    "used": 5159829504
+  },
+  "current-kernel": {
+    "sysname": "Linux",
+    "machine": "x86_64",
+    "release": "6.14.11-1-pve",
+    "version": "#1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z)"
+  },
+  "swap": {
+    "free": 8589930496,
+    "used": 0,
+    "total": 8589930496
+  },
+  "cpuinfo": {
+    "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon nopl xtopology tsc_reliable nonstop_tsc cpuid tsc_known_freq pni pclmulqdq vmx ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch ssbd ibrs ibpb stibp ibrs_enhanced tpr_shadow ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 invpcid avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves arat vnmi pku ospke avx512_vnni md_clear flush_l1d arch_capabilities",
+    "user_hz": 100,
+    "sockets": 8,
+    "mhz": "2095.077",
+    "hvm": "1",
+    "model": "Intel(R) Xeon(R) Gold 5218R CPU @ 2.10GHz",
+    "cpus": 8,
+    "cores": 8
+  },
+  "idle": 0,
+  "wait": 0.00100416882207954
+}

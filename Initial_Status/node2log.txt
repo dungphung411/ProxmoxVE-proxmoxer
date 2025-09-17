@@ -1,0 +1,52 @@
+{
+  "wait": 0.000924616223034578,
+  "idle": 0,
+  "loadavg": [
+    "1.09",
+    "0.63",
+    "0.58"
+  ],
+  "ksm": {
+    "shared": 0
+  },
+  "kversion": "Linux 6.14.8-2-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.8-2 (2025-07-22T10:04Z)",
+  "memory": {
+    "used": 3523670016,
+    "available": 13197447168,
+    "free": 12326727680,
+    "total": 16721117184
+  },
+  "cpu": 0.0227643371644694,
+  "pveversion": "pve-manager/9.0.9/117b893e0e6a4fee",
+  "cpuinfo": {
+    "hvm": "1",
+    "cores": 8,
+    "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon nopl xtopology tsc_reliable nonstop_tsc cpuid tsc_known_freq pni pclmulqdq vmx ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch ssbd ibrs ibpb stibp ibrs_enhanced tpr_shadow ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 invpcid avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves arat vnmi pku ospke avx512_vnni md_clear flush_l1d arch_capabilities",
+    "model": "Intel(R) Xeon(R) Gold 5218R CPU @ 2.10GHz",
+    "mhz": "2095.077",
+    "sockets": 8,
+    "cpus": 8,
+    "user_hz": 100
+  },
+  "current-kernel": {
+    "machine": "x86_64",
+    "release": "6.14.8-2-pve",
+    "sysname": "Linux",
+    "version": "#1 SMP PREEMPT_DYNAMIC PMX 6.14.8-2 (2025-07-22T10:04Z)"
+  },
+  "boot-info": {
+    "mode": "legacy-bios"
+  },
+  "rootfs": {
+    "avail": 29891387392,
+    "free": 31780290560,
+    "total": 36536098816,
+    "used": 4755808256
+  },
+  "swap": {
+    "used": 0,
+    "free": 8589930496,
+    "total": 8589930496
+  },
+  "uptime": 8114
+}

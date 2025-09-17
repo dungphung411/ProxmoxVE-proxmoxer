@@ -1,0 +1,52 @@
+{
+  "boot-info": {
+    "mode": "legacy-bios"
+  },
+  "swap": {
+    "total": 8589930496,
+    "used": 0,
+    "free": 8589930496
+  },
+  "pveversion": "pve-manager/9.0.9/117b893e0e6a4fee",
+  "current-kernel": {
+    "release": "6.14.11-1-pve",
+    "version": "#1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z)",
+    "sysname": "Linux",
+    "machine": "x86_64"
+  },
+  "wait": 0.000514085675505858,
+  "cpu": 0.0208531102183368,
+  "kversion": "Linux 6.14.11-1-pve #1 SMP PREEMPT_DYNAMIC PMX 6.14.11-1 (2025-08-26T16:06Z)",
+  "ksm": {
+    "shared": 0
+  },
+  "memory": {
+    "used": 5910683648,
+    "total": 25151713280,
+    "free": 18790146048,
+    "available": 19241029632
+  },
+  "loadavg": [
+    "0.38",
+    "0.41",
+    "0.50"
+  ],
+  "rootfs": {
+    "avail": 29571702784,
+    "free": 31460605952,
+    "total": 36536098816,
+    "used": 5075492864
+  },
+  "uptime": 8112,
+  "idle": 0,
+  "cpuinfo": {
+    "hvm": "1",
+    "mhz": "2294.609",
+    "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon rep_good nopl xtopology tsc_reliable nonstop_tsc cpuid tsc_known_freq pni pclmulqdq vmx ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch ssbd ibrs ibpb stibp ibrs_enhanced tpr_shadow ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid avx512f avx512dq rdseed adx smap avx512ifma clflushopt clwb avx512cd sha_ni avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves wbnoinvd arat vnmi avx512vbmi umip pku ospke avx512_vbmi2 gfni vaes vpclmulqdq avx512_vnni avx512_bitalg avx512_vpopcntdq rdpid fsrm md_clear flush_l1d arch_capabilities",
+    "cores": 12,
+    "model": "Intel(R) Xeon(R) Silver 4316 CPU @ 2.30GHz",
+    "sockets": 12,
+    "user_hz": 100,
+    "cpus": 12
+  }
+}
