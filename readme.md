@@ -38,10 +38,10 @@ Rồi tạo file env và trỏ vào nó trong code
 - Cluster Status
 - Proxmox get logs
 - Pool create and assign
+- SDN basic with Simple Zone and VLAN Zone 
 
 ### Tiếp tục triển khai
 - QEMU và template 
-- SDN
 - Storage 
 - User and Permission
 - Firewall
